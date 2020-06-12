@@ -12,3 +12,6 @@ The code is based on PRSTAB 12, 062801 (2009) and is used in Geoff Krafft's pape
 __Changelog__
 
 An example config.in file from Balsa, also file with the CBETA 0.5% bandwidth parameters.
+
+A Mathematica parser to convert Tao bunch tracking data at the IP to the momentum distribution used by ICCS. This also includes space for verification of the data through plotting of x-px phase space, which can be compared to a Tao custom plot of the same.
+
