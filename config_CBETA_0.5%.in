@@ -1,0 +1,25 @@
+150e6        # e-beam: mean energy Ee [eV]
+5.0e-4      # e-beam: relative energy spread [unitless]
+6.0e-6      # e-beam: horizontal size sigma_e_x [m]
+6.0e-6      # e-beam: vertical size sigma_e_y [m]
+0.3e-6      # e-beam: horizontal normalized emittance eps_x [m rad]
+0.3e-6      # e-beam: vertical normalized emittance eps_y [m rad]
+1064e-9      # p-beam: laser wavelength [m]
+2819.0        # p-beam: # of wavelengths in a pulse sig (normalized) [unitless]
+25.0e-6     # p-beam: transverse spot size sigma_p [m]
+4.09e-5        # p-beam: field strength parameter a0 [unitless]
+1           # p-beam: laser envelope iTypeEnv =1: gaussian; =2: rectangular
+8           # p-beam: laser chirping type modType
+0.1     # p-beam: if modType=2: a0chirp; =3: lambda_RF; =5: p
+0.0         # p-beam: angle between the laser and the z-axis [rad]
+0           # aperture: TypeAp = 0: circular, 1: rectangular
+10.0         # aperture: distance between IP and aperture L_aper [m]
+4.35e-3       # aperture: if TypeAp = 0: R_aper [m]; = 1: x_aper [m]
+0.001       # aperture: if TypeAp = 0: ignored; = 1: y_aper [m]
+0.9         # simulation: start spectrum
+1.1         # simulation: end spectrum
+1000        # simulation: Nout (number of output point in the spectrum)
+100000      # simulation: Ntot 
+1           # simulation: Npart 
+1           # simulation: N_MC
+0           # simulation: =1: read ICs from file; <> 1: MC
