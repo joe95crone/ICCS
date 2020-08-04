@@ -15,3 +15,4 @@ An example config.in file from Balsa, also file with the CBETA 0.5% bandwidth pa
 
 A Mathematica parser to convert Tao bunch tracking data at the IP to the momentum distribution used by ICCS. This also includes space for verification of the data through plotting of x-px phase space, which can be compared to a Tao custom plot of the same.
 
+Parser has been upgraded to also produce the spatial momentum distribution as requried by Balsa Terzic's upgraded ICCS3D code.
